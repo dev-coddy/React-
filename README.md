@@ -45,3 +45,15 @@
 - Named Export/Import :
   - export const CDN_LINK = "abcd";
   - import {CDN_LINK} from "path";
+
+# useEffect(callback(), dependency array[])
+
+- Every time the component is called useEffect() is called
+- if no dependency array > useEffect() is called on every render
+- if empty dependency array > useEffect() is called once after the initial render
+- dependency [btnName] is on btnName > useEffect() is called when btnName changes
+
+# 2 types of Routing in web applications
+
+- Client Side Routing
+- Server Side Routing

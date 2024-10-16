@@ -64,6 +64,10 @@ body {
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
+.link-style {
+  text-decoration: none;
+  color: inherit;
+}
 .rest-card:hover {
   border: 1px solid lightgray;
 
@@ -165,4 +169,56 @@ body {
 .search-btn:hover {
   background-color: rgb(21, 21, 21);
   color: white;
+}
+.container {
+  width: 680px;
+  margin: auto;
+}
+.rest-name {
+  font-size: 26px;
+  font-weight: bold;
+}
+.menu-container {
+  width: 100%;
+  margin: auto;
+  padding: 2px 12px;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+  /* background-color: rgb(235, 235, 235); */
+}
+.recommended-container {
+  width: 100%;
+}
+.recommended-item {
+  margin-top: 30px;
+}
+.item-name {
+  color: rgb(43, 41, 41);
+  margin-bottom: 0;
+}
+.item-rate {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.item-rating {
+  color: rgb(5, 192, 5);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.item-desc {
+  margin-top: 2px;
+  color: slategrey;
+  font-size: 15px;
+}
+.cuisines {
+  color: orangered;
+}
+.border-bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+.rest-recommended {
+  font-size: 25px;
 }
